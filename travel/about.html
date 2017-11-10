@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <!-- Insert to your webpage before the </head> -->
+    <script src="sliderengine/jquery.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+    <script src="sliderengine/initslider-1.js"></script>
+    <!-- End of head section HTML codes -->
+</head>
+<body>
+<div id="header">
+    <!--<div id="left">-->
+    <div class="logo">瓢城</div>
+    <div id="nav">
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="tour.html">旅游资讯</a></li>
+            <li><a href="ticket.html">机票订购</a></li>
+            <li><a href="scenery.html">风景欣赏</a></li>
+            <li class="active"><a href="about.html">关于公司</a></li>
+        </ul>
+    </div>
+    <!--</div>-->
+</div>
+
+<div id="banner">
+    <img src="images/headline2.jpg" alt="">
+    <div id="bz">
+        <h2>公司简介</h2>
+        <h3>公司的发展历程、获得荣誉以及联系方式</h3>
+    </div>
+</div>
+
+
+<div id="container">
+    <div id="sidebar">
+        <div class="recommend">
+            <h2>景点推荐</h2>
+            <marquee style="color: #458B00;background-color: #333333;height: 30px;
+            font-size: 20px;font-weight: bold;"
+                     behavior="alternate" onmouseover=this.stop() onmouseout=this.start()>
+                <div class="m1">
+                    瓢城旅行社
+                </div>
+            </marquee>
+            <ul>
+                <li><a href="#">曼谷(12)</a></li>
+                <li><a href="#">东京(5)</a></li>
+                <li><a href="#">西双版纳(8)</a></li>
+                <li><a href="#">漓江(16)</a></li>
+                <li><a href="#">呼伦贝尔(4)</a></li>
+                <li><a href="#">首尔(9)</a></li>
+                <li><a href="#">巴厘岛(15)</a></li>
+                <li><a href="#">土耳其(22)</a></li>
+                <li><a href="#">夏威夷(5)</a></li>
+                <li><a href="#">巴厘岛(11)</a></li>
+                <li><a href="#">毛里求斯(7)</a></li>
+                <li><a href="#">吉普岛(4)</a></li>
+                <li><a href="#">希腊(18)</a></li>
+                <li><a href="#">法瑞意(8)</a></li>
+                <li><a href="#">马尔代夫(9)</a></li>
+                <li><a href="#">新西兰(16)</a></li>
+                <li><a href="#">埃及(11)</a></li>
+                <li><a href="#">迪拜(14)</a></li>
+                <li><a href="#">斯里兰卡(7)</a></li>
+                <li><a href="#">麦哈顿(3)</a></li>
+                <li><a href="#">大阪(15)</a></li>
+            </ul>
+        </div>
+        <div class="hot">
+            <h2>热卖旅游</h2>
+            <div class="show">
+                <div class="show1">
+                    <img src="images/hot1.jpg" alt="曼谷-芭提雅6日游">
+                    <div class="show2">曼谷-芭提雅6日游</div>
+                </div>
+                <div class="show1">
+                    <img src="images/hot2.jpg" alt="马尔代夫双鱼6日游">
+                    <div class="show2">马尔代夫双鱼6日游</div>
+                </div>
+                <div class="show1">
+                    <img src="images/hot3.jpg" alt="海南双飞5日游">
+                    <div class="show2">海南双飞5日游</div>
+                </div>
+                <div class="show1">
+                    <img src="images/hot4.jpg" alt="富山大阪东京8日游">
+                    <div class="show2">富山大阪东京8日游</div>
+                </div>
+                <div class="show1">
+                    <img src="images/hot5.jpg" alt="法瑞意德12日游">
+                    <div class="show2">法瑞意德12日游</div>
+                </div>
+                <div class="show1">
+                    <img src="images/hot6.jpg" alt="巴厘岛6日半游">
+                    <div class="show2">巴厘岛6日半游</div>
+                </div>
+                <div class="show1">
+                    <img src="images/hot7.jpg" alt="塞舌尔迪拜9日游">
+                    <div class="show2">塞舌尔迪拜9日游</div>
+                </div>
+                <div class="show1">
+                    <img src="images/hot8.jpg" alt="花样土耳其10日游">
+                    <div class="show2">花样土耳其10日游</div>
+                </div>
+            </div>
+        </div>
+        <div class="treasure">
+            <h2>旅游百宝箱</h2>
+            <div class="box">
+                <a href="#" class="t1">天气预报</a>
+                <a href="#" class="t2">火车票查询</a>
+                <a href="#" class="t3">航空查询</a>
+                <a href="#" class="t4">地铁线路查询</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="about">
+        <div class="about0">
+        </div>
+        <div class="about1">
+        <h2>关于我们</h2>
+            <!-- Insert to your webpage where you want to display the slider -->
+            <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:800px;margin:0px auto 98px;">
+                <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+                    <ul class="amazingslider-slides" style="display:none;">
+                        <li><img src="images/tour1.jpg" alt="" />
+                        </li>
+                        <li><img src="images/tour3.jpg" alt="" />
+                        </li>
+                        <li><img src="images/tour4.jpg" alt="" />
+                        </li>
+                        <li><img src="images/tour5.jpg" alt="" />
+                        </li>
+                        <li><img src="images/tour9.jpg" alt="" />
+                        </li>
+                    </ul>
+                    <ul class="amazingslider-thumbnails" style="display:none;">
+                        <li><img src="images/tour1-tn.jpg" alt="tour1" /></li>
+                        <li><img src="images/tour3-tn.jpg" alt="tour3" /></li>
+                        <li><img src="images/tour4-tn.jpg" alt="tour4" /></li>
+                        <li><img src="images/tour5-tn.jpg" alt="tour5" /></li>
+                        <li><img src="images/tour9-tn.jpg" alt="tour9" /></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End of body section HTML codes -->
+        <p>瓢城旅行社旅游网创立于2006年10月，
+            以“让旅游更简单”为使命，为消费者提供由北京、上海、广州、
+            深圳等64个城市出发的旅游产品预订服务，产品全面，价格透明，
+            全年365天24小时400电话预订，并提供丰富的后续服务和保障。</p>
+        <p>目前，瓢城旅行社旅游网提供8万余种旅游产品供消费者选择，
+            涵盖跟团、自助、自驾、邮轮、酒店、签证、景区门票以及公司旅游等，
+            已成功服务累计超过400万人次出游。</p>
+        <p>同时基于瓢城旅行社旅游网全球中文景点目录以及中文旅游社区，
+            可以更好地帮助游客了解目的地信息，妥善制定好出游计划，
+            并方便地预订旅程中的服务项目。</p>
+        </div>
+        <div class="about2">
+            <h2>联系我们</h2>
+                    <p>瓢城旅行社股份有限公司</p>
+                    <p>地址：江苏省盐城市亭湖区大庆中路1234号</p>
+                    <p>邮编：1234567</p>
+                    <p>电话：010-88888888</p>
+                    <p>传真：010-88666666</p>
+        </div>
+        <div class="about3">
+            <marquee direction="left" behavior="scroll" >
+                <img src="images/tour1.jpg" width="380px" height="230px" />
+                <img src="images/tour2.jpg" width="380px" height="230px" />
+                <img src="images/tour3.jpg" width="380px" height="230px" />
+                <img src="images/tour4.jpg" width="380px" height="230px" />
+                <img src="images/tour5.jpg" width="380px" height="230px" />
+                <img src="images/tour6.jpg" width="380px" height="230px" />
+                <img src="images/tour7.jpg" width="380px" height="230px" />
+                <img src="images/tour8.jpg" width="380px" height="230px" />
+                <img src="images/tour9.jpg" width="380px" height="230px" />
+            </marquee>
+        </div>
+    </div>
+</div>
+
+
+<div id="footer">
+    <div class="footer-top">
+        <div class="f footer-left">
+            <h2>合作伙伴</h2>
+            <hr>
+            <ul>
+                <li>途牛旅游网</li>
+                <li>驴妈妈旅游网</li>
+                <li>携程旅游</li>
+                <li>中国青年旅行社</li>
+            </ul>
+        </div>
+        <div class="f footer-center">
+            <h2>旅游FAQ</h2>
+            <hr>
+            <ul>
+                <li>旅游合同签订方式？</li>
+                <li>儿童价是基于什么制定的？</li>
+                <li>旅游的线路品质怎么界定的？</li>
+                <li>单房差是什么？</li>
+                <li>旅游保险有那些种类？</li>
+            </ul>
+        </div>
+        <div class="f footer-right">
+            <h2>联系方式</h2>
+            <hr>
+            <ul>
+                <li>微博：weibo.com/ycku</li>
+                <li>邮件：ycku@ycku.com</li>
+                <li>地址：江苏盐城无名路123号</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        Copyright © YCKU 瓢城旅行社 | 苏ICP备120110119号
+        <span class="sm-hidden">| 旅行社经营许可证：L-YC-BK12345</span>
+    </div>
+</div>
+</body>
+</html>
